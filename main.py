@@ -3,7 +3,7 @@ import urllib3
 import json
 http = urllib3.PoolManager()
 def lambda_handler(event, context):
-    url = "https://hooks.slack.com/services/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"
+    url = "https://hooks.slack.com/services/xxxxx"
     
     json_data = event['Records'][0]['Sns']['Message']
     # json_object = json.dumps(json_data)
